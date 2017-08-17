@@ -1,0 +1,233 @@
+
+#mapPage {
+    background-color: #151719;
+    height: 100vh;
+    margin-top: -20px !important;
+}
+
+.nav-bar {
+    margin-bottom: 0 !important;
+    
+}
+
+.nav-links {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 30px;
+    
+}
+
+#nav-tabs {
+    color: white !important;
+}
+
+.tabs {
+    font-size: 20px;
+    padding-right: 50px;
+    padding-top: 5px;
+}
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.map-label {
+  overflow-x: hidden;
+  transition: width 0.5s ease, padding 0.5s ease;
+  transition: ;
+  text-align: center;
+  padding: ;
+  background-color: white;
+  border: solid lightgrey 2px;
+  position: absolute;
+  z-index: 100;
+  right: 0;
+  top:0;
+  bottom: 0;
+}
+
+.close-btn {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  border: none;
+  background-color: white;
+  font-size: 17px;
+}
+
+.body {
+    height: 92vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: -20px;
+}
+
+video {
+    margin: 0;
+    padding: 0;
+}
+
+#video-background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+}
+
+.mainTitle {
+    color: goldenrod;
+    font-size: 70px;
+    padding-top: 40vh;
+}
+
+@media(max-width: 414px) {
+    .mainTitle {
+        padding-top: 120px;;
+        }
+}
+
+/*animation*/
+#mainTitle {
+    animation-name: fadeIn;
+    -o-animation-delay: 3s;
+    animation-duration: 3s;
+}
+
+.tagline {
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.mapTitle {
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+/*start of menu app css*/
+
+.banner {
+    height: 60vh;
+    background: url("/images/shots.jpg");
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    
+}
+
+.bannerComponent {
+    height: 60vh
+}
+
+.headerTitle {
+    margin-top: 150px;
+    color: white;
+}
+
+.categoryPic {
+    height: 400px;
+    background: url("/images/drink.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.divider {
+    height: 300px;
+    background: #151719;
+    color: white;
+    padding-top: 30px;
+}
+
+.category {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.search {
+    margin-top: 50px;
+}
+
+.menuList {
+    background-color: #151719;
+    color: white;
+}
+
+.drinkList {
+    font-size: 15px;
+    height: 100px;
+    overflow-y: scroll;
+}
+
+.theDrinks {
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.workPoints {
+    padding-top: 20px;
+    text-align: left !important;
+}
+
+.workPoints h4 {
+    padding-bottom: 15px;
+    margin-left: -20px;
+}
+
+.numberPicker {
+    color: white;
+    size: 14px;
+}
+
+.price {
+    color: white !important;
+}
+
+.addButton {
+    margin-bottom: 75px;
+    margin-left: 30px;
+}
+
+.menuMainTitle {
+    color: goldenrod;
+    font-size: 60px;
+}
+/*@media(max-width: 1024px) {
+    .menuMainTitle {
+        padding-top: 120px;;
+        }
+}*/
+
+
+.menuTagline {
+    font-size: 30px;
+}
+
+.howItTitle {
+    color: goldenrod;
+}
+
+.menu {
+    color: goldenrod;
+}
+
+span.currency {
+    color: white !important;
+}
+
+span.digit {
+    color: white !important;
+}
+
+.removeButton {
+    border: none;
+    background: none;
+}
