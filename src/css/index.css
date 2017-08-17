@@ -133,7 +133,7 @@ video {
 }
 
 .categoryPic {
-    height: 400px;
+    height: 450px;
     background: url("/images/drink.jpg");
     background-position: bottom;
     background-size: cover;
@@ -149,7 +149,11 @@ video {
 
 .category {
     padding-bottom: 50px;
-    padding-top: 50px;
+    padding-top: 30px;
+}
+
+#order {
+    padding-top: 20px !important;
 }
 
 .search {
@@ -231,3 +235,4 @@ span.digit {
     border: none;
     background: none;
 }
+

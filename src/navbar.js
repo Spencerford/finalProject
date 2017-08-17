@@ -13,7 +13,7 @@ class CustomNavbar extends Component {
                     <Navbar.Toggle />
                 </Navbar.Header>
                 <Navbar.Collapse >
-                    <Nav className="tabs" pullRight>
+                    <Nav className="text-center tabs" pullRight>
                         <NavItem eventKey={1}><Link id="nav-tabs" to="/">Home</Link></NavItem>
                         <NavItem eventKey={2}><Link id="nav-tabs" to="/map">Map</Link></NavItem>
                         <NavItem eventKey={3}><Link id="nav-tabs" to="/menu">Menu</Link></NavItem>
