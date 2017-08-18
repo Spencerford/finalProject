@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
+import { HashRouter, Route, Switch, Link } from "react-router-dom";
 
 import MapContainer from "./containers/map-container.js";
 import CustomNavbar from "./navbar.js";
@@ -20,7 +20,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <BrowserRouter>
+                <HashRouter>
                     <div>
                         <CustomNavbar/>
                         <Switch>
@@ -30,7 +30,7 @@ class App extends React.Component {
                         </Switch>
                     </div>
                     
-                </BrowserRouter>
+                </HashRouter>
             </div>
 
         )
